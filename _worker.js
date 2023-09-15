@@ -12,11 +12,11 @@ let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 let dohURL = 'https://dns.google/dns-query'; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
 
 // v2board api environment variables
-let nodeId = '1'; // 1
+let nodeId = ''; // 1
 
-let apiToken = 'abcdefghijklmnopqrstuvwxyz123456'; //abcdefghijklmnopqrstuvwxyz123456
+let apiToken = ''; //abcdefghijklmnopqrstuvwxyz123456
 
-let apiHost = 'api.v2board.com'; // api.v2board.com
+let apiHost = ''; // api.v2board.com
 
 if (!isValidUUID(userID)) {
     throw new Error('uuid is not valid');
